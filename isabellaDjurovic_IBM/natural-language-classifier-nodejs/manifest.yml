@@ -1,0 +1,11 @@
+declared-services:
+  natural-language-classifier-standard:
+    label: natural_language_classifier
+    plan: standard
+applications:
+- services:
+  - nlc-service
+  name: iDjurovic-nls
+  command: npm start
+  path: .
+  memory: 512M

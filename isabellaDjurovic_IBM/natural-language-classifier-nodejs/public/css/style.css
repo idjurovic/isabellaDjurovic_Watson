@@ -1,0 +1,26 @@
+.errorMsg {
+  font-weight:bold;
+  color:red;
+  white-space: pre-wrap;
+}
+
+.example-questions {
+ margin: 5px;
+}
+
+.example-questions a {
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+}
+.confidence {
+	color: #00B2EF;		/*confidence text color*/
+}
+
+.classification {
+	color: #00B2EF;		/*classification text color*/
+}
+.ask-btn {
+	height: 2.5em;
+	padding: 0em;
+}
